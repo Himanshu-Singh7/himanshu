@@ -7,6 +7,6 @@ export default defineConfig({
   base : "/himanshu/",
   build: {
 
-    outDir :"./docs",
+    outDir :"./assests/docs",
   } ,
 })
