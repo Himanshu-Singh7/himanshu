@@ -24,6 +24,7 @@ const RoutesComponent = () => {
         <Header toggleMenu={toggleMenu} />
         <Sidebar showMenu={showMenu} toggleMenu={toggleMenu} />
         <Routes>
+          
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Skills />} />
           <Route path="/projects" element={<Works />} />
